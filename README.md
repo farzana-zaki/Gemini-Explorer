@@ -28,6 +28,8 @@ Task 6: 📄 Preparing Submission
 
 ### Task 2: 🧬 Google Cloud Initialization
 🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server and test endpoints.
+#### Google Cloud CLI:
+Google Cloud Command Line Interface (gcloud CLI) lets you manage resources and services from the command line. It also contains service and data emulators to speed up local development.
 #### Steps:
 - Install Google Cloud SDK: Visit the Google Cloud SDK webpage and download the installer for your operating system (https://cloud.google.com/sdk/docs/install).
 - Initialize Google Cloud SDK by opening the command prompt and run the following command to start the initialization process: gcloud init
