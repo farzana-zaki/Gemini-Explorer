@@ -28,11 +28,19 @@ Task 6: 📄 Preparing Submission
 
 ### Task 2: 🧬 Google Cloud Initialization
 🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server and test endpoints.
-#### Google Cloud CLI:
+#### Google Cloud CLI: [1]
 Google Cloud Command Line Interface (gcloud CLI) lets you manage resources and services from the command line. It also contains service and data emulators to speed up local development.
+For example, you can use the gcloud CLI to create and manage the following:
+- Compute Engine virtual machine instances and other resources
+- Cloud SQL instances
+- Google Kubernetes Engine clusters
+- Dataproc clusters and jobs
+- Cloud DNS managed zones and record sets
+- Cloud Deployment Manager deployments
+
 #### Steps:
 - Install Google Cloud SDK: Visit the Google Cloud SDK webpage and download the installer for your operating system (https://cloud.google.com/sdk/docs/install).
-- Initialize Google Cloud SDK by opening the command prompt and run the following command to start the initialization process: gcloud init
+- Initialize Google Cloud SDK by opening the command prompt and running the following command to start the initialization process: gcloud init
 - Follow the on-screen instructions to log in to your Google Cloud account and set up your default project and configuration.
 - Set No to compute region and zone (Optional Step)
 - If you encounter authentication problems, use the following command to authenticate using your Google account: gcloud auth application-default login. This command will open a browser window for you to log in and 
@@ -52,6 +60,10 @@ Google Cloud Command Line Interface (gcloud CLI) lets you manage resources and s
 ### Task 6:📄 Preparing Submission
 - A GitHub repository for the project containing all the project files.
 - Loom Video representing the overall approach. (Loom link: )
+
+## References: 
+1. https://cloud.google.com/sdk/gcloud
+2. https://cloud.google.com/sdk/docs/install
 
 ## Acknowledgements
 Special thanks to Radical AI for allowing me to embark on and complete this AI Mission.
