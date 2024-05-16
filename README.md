@@ -22,10 +22,18 @@ Task 6: 📄 Preparing Submission
 - Please make sure that your billing information is correct and up-to-date. This is crucial for account verification and access to Google Cloud Platform services.
 - Create a new project in your Google Cloud Platform dashboard for the Gemini Explorer Mission. Give your project a unique and descriptive name to make it easy to identify.
 - In the Google Cloud Platform console, go to the Vertex AI section and enable the recommended APIs for your project to utilize Vertex AI's capabilities fully.
+  ![Task1](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/7bf9a258-c770-4f35-abfa-1b01fa75095b)
+
 
 
 ### Task 2: 🧬 Google Cloud Initialization
 🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server and test endpoints.
+#### Steps:
+- Install the Google SDK using this Link.
+- Run the following command to initialize the SDK: gcloud init
+- Sign in using your Google Account credentials.
+- Select an existing project or Create a new project
+- Set default to compute region and zone (Optional Step)
 
 ### Task 3: ☁️ Setting up Google Gemini
 🚀 Dive into generative models effortlessly! Import necessary libraries like Vertexai and Streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
