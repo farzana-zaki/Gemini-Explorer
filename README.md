@@ -51,4 +51,7 @@ Task 6: 📄 Preparing Submission
 - A GitHub repository for the project containing all the project files.
 - Loom Video representing the overall approach. (Loom link: )
 
+## Acknowledgements
+Special thanks to Radical AI for allowing me to embark on and complete this AI Mission.
+![Radical AI Post](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/6c75dbad-292a-4dd9-80e6-e79309cfb471)
 
