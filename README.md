@@ -4,7 +4,7 @@
 
 ## Mission Scenario
 
-Develop a chat interface using Streamlit to integrate with Google's cutting-edge large language model, Gemini, providing an accessible platform to explore and demonstrate the capabilities of advanced language model applications. This project aims to serve as an educational and practical introduction to the fusion of large language models and user-friendly interfaces.
+Develop a chat interface using Streamlit to integrate with Google's cutting-edge large language model, Gemini. This project aims to provide an accessible platform to explore and demonstrate the capabilities of advanced language model applications. It also aims to serve as an educational and practical introduction to the fusion of large language models and user-friendly interfaces.
 
 ## Mission Workflow
 
@@ -14,25 +14,30 @@ Task 3: ☁️ Setting up Google Gemini
 Task 4: 📊 Streamlit Integration
 Task 5: 🗣️ Adding Initial System Messages
 Task 6: 📄 Preparing Submission
-![Task1](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/796cc7ed-19d8-4a40-87f7-4e500513492e)
+
+### Task 1: 🌐 Enabling Google Cloud
+Steps:
+- Create a Google Cloud account. Navigate to https://cloud.google.com/ and sign up for a new account or log in if you already have an account.
+- Verify your account by entering the necessary billing information when prompted. Remember, you will not be charged now; it's just for verification purposes.
+- Please make sure that your billing information is correct and up-to-date. This is crucial for account verification and access to Google Cloud Platform services.
+- Create a new project in your Google Cloud Platform dashboard for the Gemini Explorer Mission. Give your project a unique and descriptive name to make it easy to identify.
+- In the Google Cloud Platform console, go to the Vertex AI section and enable the recommended APIs for your project to utilize Vertex AI's capabilities fully.
 
 
+### Task 2: 🧬 Google Cloud Initialization
+🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server and test endpoints.
 
-Task 🌐 Enable Google Cloud
-🚀 Learn how to set up Google Cloud for the Gemini Flights Mission!
+### Task 3: ☁️ Setting up Google Gemini
+🚀 Dive into generative models effortlessly! Import necessary libraries like Vertexai and Streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
 
-Task 🧬 Google Cloud Initialization
-🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server, and test endpoints.
-
-Task☁️ Setting up Google Gemini
-🚀 Dive into generative models effortlessly! Import necessary libraries like vertexai and streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
-
-Task📊 Streamlit Integration
+### Task 4:📊 Streamlit Integration
 📲 Streamlit-powered Gemini Explorer! Define a chat function, set up the Streamlit interface, display and load chat history, and capture user input effortlessly.
 
-Task🗣️ Adding Initial System Messages
+### Task 5:🗣️ Adding Initial System Messages
 🚀 Enhance ReX's personality in your Streamlit app! Implement logic for the initial prompt, experiment with different styles, and personalize ReX with user information for engaging interactions.
 
-Submission📄 Preparing Submission
-🎥 Create an impactful Loom video and compelling GitHub repository for your project! Develop clear slides, demonstrate functionality, and provide detailed documentation.
+### Task 6:📄 Preparing Submission
+- A GitHub repository for the project containing all the project files.
+- Loom Video representing the overall approach. (Loom link: )
+
 
