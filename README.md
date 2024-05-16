@@ -29,11 +29,14 @@ Task 6: 📄 Preparing Submission
 ### Task 2: 🧬 Google Cloud Initialization
 🛠️ Dive into backend development with these steps! Clone the repository, set up a virtual environment, start the FastAPI server and test endpoints.
 #### Steps:
-- Install the Google SDK using this Link.
-- Run the following command to initialize the SDK: gcloud init
-- Sign in using your Google Account credentials.
-- Select an existing project or Create a new project
-- Set default to compute region and zone (Optional Step)
+- Install Google Cloud SDK: Visit the Google Cloud SDK webpage and download the installer for your operating system (https://cloud.google.com/sdk/docs/install).
+- Initialize Google Cloud SDK by opening the command prompt and run the following command to start the initialization process: gcloud init
+- Follow the on-screen instructions to log in to your Google Cloud account and set up your default project and configuration.
+- Set No to compute region and zone (Optional Step)
+- If you encounter authentication problems, use the following command to authenticate using your Google account: gcloud auth application-default login. This command will open a browser window for you to log in and 
+  will help avoid the need to expose API keys.
+  ![Task2](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/6a105430-9add-49ab-a342-ff1e778c11d1)
+
 
 ### Task 3: ☁️ Setting up Google Gemini
 🚀 Dive into generative models effortlessly! Import necessary libraries like Vertexai and Streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
