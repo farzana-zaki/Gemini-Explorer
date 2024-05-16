@@ -16,7 +16,7 @@ Task 5: 🗣️ Adding Initial System Messages
 Task 6: 📄 Preparing Submission
 
 ### Task 1: 🌐 Enabling Google Cloud
-Steps:
+#### Steps:
 - Create a Google Cloud account. Navigate to https://cloud.google.com/ and sign up for a new account or log in if you already have an account.
 - Verify your account by entering the necessary billing information when prompted. Remember, you will not be charged now; it's just for verification purposes.
 - Please make sure that your billing information is correct and up-to-date. This is crucial for account verification and access to Google Cloud Platform services.
