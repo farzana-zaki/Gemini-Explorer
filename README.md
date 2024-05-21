@@ -52,18 +52,33 @@ For example, you can use the gcloud CLI to create and manage the following:
 🚀 Dive into generative models effortlessly! Import necessary libraries like Vertexai and Streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
 
 #### Steps:
-To install Streamlit in a virtual environment, you can follow these steps:
-- First, make sure you have Python installed on your system.
-- Open a terminal or command prompt and navigate to the directory where you want to create your virtual environment.
-- Create a new virtual environment by running the following command: 
+To create a virtual environment, download the required libraries, and run a Python script in VS Code, you can follow these steps:
+
+##### Step 1: Create a Virtual Environment
+- Open VS Code and navigate to the integrated terminal.
+- Use the terminal to create a virtual environment by running the following command:
 python -m venv myenv
 - Replace myenv with the name you want to give to your virtual environment.
-- Activate the virtual environment: 
-On Windows: myenv\Scripts\activate
-On macOS and Linux: source myenv/bin/activate
-- Once the virtual environment is activated, you can install Streamlit using pip: 
+##### Step 2: Activate the Virtual Environment
+- After creating the virtual environment, activate it by running the activation command specific to your operating system:
+For Windows: .\myenv\Scripts\activate
+For macOS and Linux: source myenv/bin/activate
+##### Step 3: Install Required Libraries
+Once the virtual environment is activated, install the required libraries using the pip command:
 pip install streamlit
-- After the installation, you can start using Streamlit within the virtual environment.
+pip install vertexai
+pip install google-cloud-aiplatform
+##### Step 4: Write and Run the Python Script
+- Write your Python script in VS Code or open an existing script.
+- Ensure that the correct interpreter is selected for your created virtual environment. You can do this by clicking on the interpreter version displayed in the bottom-left corner of the VS Code window and selecting the interpreter associated with your virtual environment.
+- Run your Python script by clicking the "Run Python File in Terminal" button located in the top-right corner of the script editor.
+##### Step 5: Verify Execution
+- After clicking the "Run" button, your Python script's output should appear in the terminal within VS Code.
+  
+Following these steps, you can create a virtual environment, download the required libraries, and run a Python script in VS Code.
+
+![Task3](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/9c7bac5f-3cc4-4d93-b322-80c68acea976)
+
 
 ### Task 4:📊 Streamlit Integration
 📲 Streamlit-powered Gemini Explorer! Define a chat function, set up the Streamlit interface, display and load chat history, and capture user input effortlessly.
@@ -78,6 +93,8 @@ pip install streamlit
 ## References: 
 1. https://cloud.google.com/sdk/gcloud
 2. https://cloud.google.com/sdk/docs/install
+3. https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/?ref=ml_lbp
+4. https://docs.streamlit.io/get-started/installation
 
 ## Acknowledgements
 Special thanks to Radical AI for allowing me to embark on and complete this AI Mission.
