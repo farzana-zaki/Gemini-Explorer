@@ -74,6 +74,7 @@ Ensure that the correct interpreter is selected for your created virtual environ
 Run your Python script by clicking the "Run Python File in Terminal" button at the top-right corner of the script editor.
 ##### Step 5: Verify Execution
 - After clicking the "Run" button, your Python script's output should appear in the terminal within VS Code.
+- (myenv) PS C:\Users\frzsu\OneDrive\Desktop\Radical_ai\Gemini_Explorer\myenv> .\explorer.py
   
 Following these steps, you can create a virtual environment, download the required libraries, and run a Python script in VS Code.
 
