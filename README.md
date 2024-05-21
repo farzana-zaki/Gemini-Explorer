@@ -51,6 +51,20 @@ For example, you can use the gcloud CLI to create and manage the following:
 ### Task 3: ☁️ Setting up Google Gemini
 🚀 Dive into generative models effortlessly! Import necessary libraries like Vertexai and Streamlit, then set up your project, initialize the model, and troubleshoot potential issues.
 
+#### Steps:
+To install Streamlit in a virtual environment, you can follow these steps:
+- First, make sure you have Python installed on your system.
+- Open a terminal or command prompt and navigate to the directory where you want to create your virtual environment.
+- Create a new virtual environment by running the following command: 
+python -m venv myenv
+- Replace myenv with the name you want to give to your virtual environment.
+- Activate the virtual environment: 
+On Windows: myenv\Scripts\activate
+On macOS and Linux: source myenv/bin/activate
+- Once the virtual environment is activated, you can install Streamlit using pip: 
+pip install streamlit
+- After the installation, you can start using Streamlit within the virtual environment.
+
 ### Task 4:📊 Streamlit Integration
 📲 Streamlit-powered Gemini Explorer! Define a chat function, set up the Streamlit interface, display and load chat history, and capture user input effortlessly.
 
