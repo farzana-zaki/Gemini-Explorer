@@ -69,9 +69,9 @@ pip install streamlit
 pip install vertexai
 pip install google-cloud-aiplatform
 ##### Step 4: Write and Run the Python Script
-- Write your Python script in VS Code or open an existing script.
-- Ensure that the correct interpreter is selected for your created virtual environment. You can do this by clicking on the interpreter version displayed in the bottom-left corner of the VS Code window and selecting the interpreter associated with your virtual environment.
-- Run your Python script by clicking the "Run Python File in Terminal" button located in the top-right corner of the script editor.
+- Write your Python script in VS Code. Use the project name (that was created on the GCP platform, Task-1) in the project; for example, my project name was Gemini-explorer-423520, so I used project = "Gemini-explorer-423520". This helps avoid encountering a 403 permission denied error.
+Ensure that the correct interpreter is selected for your created virtual environment. You can do this by clicking on the interpreter version displayed in the bottom-left corner of the VS Code window and selecting the interpreter associated with your virtual environment (shift+ctrl+P and then selecting the Python version installed on your local machine).
+Run your Python script by clicking the "Run Python File in Terminal" button at the top-right corner of the script editor.
 ##### Step 5: Verify Execution
 - After clicking the "Run" button, your Python script's output should appear in the terminal within VS Code.
   
