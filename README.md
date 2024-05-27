@@ -124,7 +124,7 @@ Make sure you follow every step of Task 3 before this step.
 
 ### Task 6:📄 Preparing Submission
 - A GitHub repository for the project containing all the project files.
-- Loom Video representing the overall approach. (Loom link: )
+- Loom Video representing the overall approach. [Loom](add the link here )
 
 ## References: 
 1. https://cloud.google.com/sdk/gcloud
