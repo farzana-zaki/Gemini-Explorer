@@ -46,7 +46,11 @@ For example, you can use the gcloud CLI to create and manage the following:
   ```
 - Follow the on-screen instructions to log in to your Google Cloud account and set up your default project and configuration.
 - Set No to compute region and zone (Optional Step)
-- If you encounter authentication problems, use the following command to authenticate using your Google account: gcloud auth application-default login. This command will open a browser window for you to log in and 
+- If you encounter authentication problems, use the following command to authenticate using your Google account:
+  ```
+  gcloud auth application-default login
+  ```
+  This command will open a browser window for you to log in and 
   will help avoid the need to expose API keys.
   ![Task2](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/6a105430-9add-49ab-a342-ff1e778c11d1)
 
@@ -58,28 +62,45 @@ For example, you can use the gcloud CLI to create and manage the following:
 To create a virtual environment, download the required libraries, and run a Python script in VS Code, you can follow these steps:
 ##### Step 1: Open a folder named “Gemini_Explorer” on your computer.
 ##### Step 2: Create a txt file named requirements.txt and write the following things inside the txt file:
-	streamlit
+	```
+ 	streamlit
 	google-cloud-aiplatform
 	vertexai
+ 	```
 ##### Step 3: Open VS code>new python file>write necessary python codes and save it as gemini-explorer.py
-- Write your Python script in VS Code. Use the project name (that was created on the GCP platform, Task-1) in the project; for example, my project name was Gemini-explorer-423520, so I used project = "Gemini-explorer-423520". This helps avoid encountering a 403 permission denied error.
+- Write your Python script in VS Code. Use the project name (that was created on the GCP platform, Task-1) in the project; for example, my project name was Gemini-explorer-423520, so I used
+  ```
+  project = "Gemini-explorer-423520"
+  ```
+  This helps avoid encountering a 403 permission denied error.
 - Ensure that the correct interpreter is selected for your created virtual environment. You can do this by clicking on the interpreter version displayed in the bottom-left corner of the VS Code window and selecting the interpreter associated with your virtual environment (shift+ctrl+P and then selecting the Python version installed on your local machine).
 
 ##### Step 4: To run the code, use the VS terminal and follow the following steps:
 - Use cd c:\Folder_name to navigate to the “Gemini_Explorer folder”
 - Create a virtual environment (“env”) sub-folder inside the “Gemini_Explorer” folder by writing the following in the VS code terminal:
-	                   python -m venv env
+	 ```
+  	python -m venv env
+  	```
 - After creating the virtual environment, activate the virtual environment (env) by writing the following in the VS code terminal:
-                    - For windows:	env\Scripts\activate
+                    - For windows:
+  	```
+   	env\Scripts\activate
+   	```
                     - For macOS and Linux: source myenv/bin/activate
 
 - Once the virtual environment is activated, install the required libraries from the requirements.txt by writing the following in the VS code terminal:
-                                     pip install -r requirements.txt
+  	```
+   	pip install -r requirements.txt
+   	```
 - Download Google Cloud SDK inside the “Gemini_Explorer” folder and authenticate the Google Cloud by writing the following in the VS code terminal:
-	                                   Gcloud auth application-default login
+	 ```
+  	Gcloud auth application-default login
+  	```
    and select your email and allow Google to authenticate the Google cloud.
 - Run the Python code by writing the following in the VS code terminal:
-                    .\gemini-explorer.py
+  	```
+   	.\gemini-explorer.py
+   	```
 
  
 Following these steps, you can create a virtual environment, download the required libraries, and run a Python script in VS Code.
@@ -90,7 +111,9 @@ Following these steps, you can create a virtual environment, download the requir
 ### Task 4:📊 Streamlit Integration
 📲 Streamlit-powered Gemini Explorer! Define a chat function, set up the Streamlit interface, display and load chat history, and capture user input effortlessly.
 #### Step: Run the following command in the VS code terminal to view the RadicalX Gemini Explorer chatbot in the streamlit :
-                              streamlit run gemini-explorer.py
+        ```
+	streamlit run gemini-explorer.py
+ 	```
 Make sure you follow every step of Task 3 before this step.
 ![Task_4](https://github.com/farzana-zaki/Gemini-Explorer/assets/126524003/b270b4c4-41ff-4f23-8027-0e4fb25fc3d7)
 
